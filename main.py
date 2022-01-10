@@ -1,16 +1,15 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from Math import Math
 
 
 def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    m = Math()
+    #res = m.countDigits(1234)
+    #res = m.quadraticRoots(752, 904, 164)
+    res = m.greyConverter(7)
+    print(res)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
